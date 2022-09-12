@@ -1,0 +1,13 @@
+22:26:56.660 [main] INFO  stepDefinitions.AddProducts - Product size: UK 5
+22:26:56.701 [main] INFO  stepDefinitions.AddProducts - Product price:£145.00
+22:26:56.772 [main] INFO  stepDefinitions.AddProducts - Product quantity:1
+22:26:56.812 [main] INFO  stepDefinitions.AddProducts - Product name: PRIMUS ASANA MENS
+22:26:56.871 [main] INFO  stepDefinitions.AddProducts - Product size: UK 8
+22:26:56.910 [main] INFO  stepDefinitions.AddProducts - Product price:£140.00
+22:26:56.950 [main] INFO  stepDefinitions.AddProducts - Product quantity:1
+22:26:56.995 [main] INFO  stepDefinitions.AddProducts - View Basket button is displayed
+22:26:57.019 [main] INFO  stepDefinitions.AddProducts - Checkout button is displayed
+22:26:57.058 [main] INFO  stepDefinitions.AddProducts - Paypal actions is displayed
+22:26:57.081 [main] INFO  stepDefinitions.AddProducts - Quantity updated
+22:27:07.663 [main] INFO  stepDefinitions.AddProducts - Product removed from cart
+22:27:10.710 [main] INFO  stepDefinitions.AddProducts - Subtotal amount after removing one of the items:£145.00
