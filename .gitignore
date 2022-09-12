@@ -1,6 +1,5 @@
 /.idea/VivoTechnicalTest.iml
 /.idea/compiler.xml
-
 /target/*
 .idea
 target
