@@ -51,7 +51,7 @@ public class AddProducts {
             log.info("Product name: " +miniCartPage.productName(i).getText());
             assertEquals(productDetails.getDetails().get(totalItems - i).get("size"), miniCartPage.productOptions(i).getText().split("\n")[1].split(":")[1].trim());
             log.info("Product size: "+miniCartPage.productOptions(i).getText().split("\n")[1].split(":")[1].trim());
-            assertEquals(productDetails.getDetails().get(totalItems - i).get("price"), miniCartPage.productItemPricing(i).getText().trim());
+            assertEquals("£"+productDetails.getDetails().get(totalItems - i).get("price"), miniCartPage.productItemPricing(i).getText().trim());
             log.info("Product price:" + miniCartPage.productItemPricing(i).getText().trim());
             assertEquals(productDetails.getDetails().get(totalItems - i).get("qty"), miniCartPage.productQty(i).getAttribute("value").trim());
             log.info("Product quantity:" +miniCartPage.productQty(i).getAttribute("value").trim());
